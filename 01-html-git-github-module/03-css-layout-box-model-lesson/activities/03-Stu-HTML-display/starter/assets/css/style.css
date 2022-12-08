@@ -14,7 +14,7 @@ ul {
 
 li {
   list-style-type: none;
-  font-size: 40px;
+  font-size: 15px;
 }
 
 img {
@@ -26,7 +26,7 @@ img {
 }
 
 #item-2 {
-  background-color: #0000ff;
+  background-color: #2c2caf;
 }
 
 #item-3 {
@@ -34,5 +34,20 @@ img {
 }
 
 #image-3 {
+ /*display: none;*/
+}
+/* Sets display of all elements with class selector to block */
+.display-block {
+  display: block;
+  
+}
+
+/* Sets display of all elements with class selector to inline */
+.display-inline {
+  display: inline;
+}
+
+/* Sets display of all elements with class selector to inline */
+.display-none {
   display: none;
 }

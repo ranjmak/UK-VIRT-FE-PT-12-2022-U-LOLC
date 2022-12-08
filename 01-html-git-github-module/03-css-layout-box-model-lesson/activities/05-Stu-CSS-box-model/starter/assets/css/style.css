@@ -1,12 +1,33 @@
 section {
   width: 600px;
   height: 600px;
-  text-align: center;
+  text-align: left;
   border: 15px solid black;
 }
 
 img {
   width: 200px;
   height: 200px;
-  background-color: lightblue;
+  background-color: rgb(7, 183, 241);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+
+.image-padding {
+  /* Sets padding on all sides to 20px */
+  padding: 20px;
+  background-color: #7291c2;
+}
+
+.image-border {
+  /* Sets border on all sides */
+  border: 10px solid darkblue;
+}
+
+.image-margin {
+  /* Sets all sides to 20px */
+  margin: 20px;
 }
