@@ -28,17 +28,6 @@ header {
   background-color: lightblue;
 }
 
-.container {
-  width: 600px;
-  height: 600px;
-  margin: 20px auto;
-  border: 15px solid black;
-}
-
-.absolute-container {
-  position: relative;
-}
-
 /* Relative positioning */
 #relative-box-2 {
   position: relative;
@@ -48,4 +37,15 @@ header {
   position: absolute;
   top: 0px;
   right: -300px;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 20px auto;
+  border: 15px solid black;
+}
+
+.absolute-container {
+  position: relative;
 }
