@@ -1,0 +1,51 @@
+h1 {
+
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+}
+
+h2 {
+
+    font-size: 24px;
+}
+body {
+
+    background-color: #efeee7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+   
+}
+
+header {
+
+    background-color: #333333;
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 1024px;
+}
+
+a:link {
+
+    color: #d21034;
+}
+
+#main-bio #contact-info #bio-image {
+    float: left;
+}
+#bio-image{
+    width: 200px;
+    margin: 10px;
+}
+#main-bio{
+    width: 70%;
+}
+#contact-info{
+    width: 30%;
+}
